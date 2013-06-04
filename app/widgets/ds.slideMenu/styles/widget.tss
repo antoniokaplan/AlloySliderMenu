@@ -2,14 +2,14 @@
 	top: "0dp",
 	left: "0dp",
 	width: "250dp",
-	zIndex: "2",
+	zIndex: "1",
 	backgroundColor : "#FFF"
 },
 "#rightMenu": {
 	top: "0dp",
 	right: "0dp",
 	width: "250dp",
-	zIndex: "1",
+	zIndex: "2",
 	backgroundColor : "#FFF"
 },
 "#navview": {
