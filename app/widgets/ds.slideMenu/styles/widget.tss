@@ -16,19 +16,20 @@
 	top: "0dp",
 	left: "0dp",
 	width : Ti.Platform.displayCaps.platformWidth,
-	height : "44",
+	height : "44dp",
 	backgroundImage : '/ds.slideMenu/NavBackground.png'
 },
 "#movableview": {
 	left: "0",
 	zIndex: "3",
-	width : Ti.Platform.displayCaps.platformWidth
+	width : Ti.Platform.displayCaps.platformWidth,
+	height: Ti.UI.FILL
 },
 "#contentview": {
 	left : "0dp",
 	width : Ti.Platform.displayCaps.platformWidth,
 	height : Ti.UI.Fill,
-	top : "44",
+	top : "44dp",
 	backgroundColor : 'white'
 },
 "#shadowview": {
@@ -41,8 +42,8 @@
 	image : "/ds.slideMenu/ButtonMenu.png",
 	left : "0",
 	top : "0",
-	width : "60",
-	height : "44",
+	width : "60dp",
+	height : "44dp",
 	style : "none"
 },
 "#rightButton": {
@@ -50,7 +51,15 @@
 	image : "/ds.slideMenu/ButtonMenu.png",
 	right : "0",
 	top : "0",
-	width : "60",
-	height : "44",
+	width : "60dp",
+	height : "44dp",
 	style : "none"
-}
+},
+"#leftMenu":{
+	backgroundColor: "#00ff00",
+	height: "100%"
+},
+"#containerview": {
+	backgroundColor: "#009900",
+	height: "100%"
+},
