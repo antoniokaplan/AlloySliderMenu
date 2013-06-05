@@ -10,6 +10,7 @@
 			<View id="shadowview">
 				<View id="navview">
 					<Button id="leftButton" />
+					<Label id='navheader' />
 					<Button id="rightButton" />
 				</View>
 				<View id="contentview" />
