@@ -16,7 +16,7 @@
 	top: "0dp",
 	left: "0dp",
 	width : Ti.Platform.displayCaps.platformWidth,
-	height : "44dp",
+	height : "60dp",
 	backgroundImage : '/ds.slideMenu/NavBackground.png'
 },
 "#movableview": {
@@ -40,10 +40,10 @@
 "#leftButton": {
 	backgroundImage : 'none',
 	image : "/ds.slideMenu/ButtonMenu.png",
-	left : "0",
-	top : "0",
-	width : "60dp",
-	height : "44dp",
+	left : "10dp",
+	top : "5dp",
+	width : Ti.UI.SIZE,
+	// height : Ti.UI.FILL,
 	style : "none"
 },
 "#rightButton": {
@@ -62,4 +62,4 @@
 "#containerview": {
 	backgroundColor: "#009900",
 	height: "100%"
-},
+}
