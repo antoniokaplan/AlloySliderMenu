@@ -129,6 +129,22 @@ exports.toggleLeftSlider = function() {
 	});
 }
 
+exports.closeLeftSlider = function() {
+	var closed = true;
+	if (hasSlided) {
+		direction = "reset";
+		$.leftButton.touchEnabled = true;
+		$.movableview.animate(animateReset);
+		hasSlided = false;
+		closed = false;
+	}
+	Ti.App.fireEvent("sliderToggled", {
+		hasSlided : hasSlided,
+		direction : direction
+	});
+	return closed;
+}
+
 exports.toggleRightSlider = function() {
 	if (!hasSlided) {
 		direction = "left";
